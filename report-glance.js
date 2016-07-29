@@ -137,7 +137,7 @@ function glance(){
                 }
 
                 if (data[i]['ProductName'] === 'Amazon Simple Storage Service'){
-                    data[i]['user:Name'] = data[i]['ResourceId'];
+                    data[i]['user:Name'] = '(' + data[i]['UsageType'] + ')' + data[i]['ResourceId'];
                     continue;
                 }
 
