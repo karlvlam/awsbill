@@ -1,0 +1,12 @@
+{
+  "name": "awsbill",
+  "description": "AWS Bill",
+  "version": "0.0.1",
+  "dependencies": {
+    "promised-io": "0.3.4",
+    "mongodb": "2.0.27",
+    "json2csv": "*",
+    "yargs": "*",
+    "csv": "0.3.7"
+  }
+}
